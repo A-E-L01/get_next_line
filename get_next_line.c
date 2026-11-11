@@ -6,7 +6,7 @@
 /*   By: aboel-ma <aboel-ma@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/06 17:03:42 by aboel-ma          #+#    #+#             */
-/*   Updated: 2026/11/08 18:23:00 by aboel-ma         ###   ########.fr       */
+/*   Updated: 2026/11/10 21:13:36 by aboel-ma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -92,7 +92,7 @@ char	*update_get(char *get)
 	index = 0;
 	if (get == NULL)
 		return (NULL);
-	while (get[index] != '\0' && get[index] != '\n')
+	while (get[index] != '\0' && get[index] != '\n')//
 		index++;
 	if (get[index] == '\0')
 	{
